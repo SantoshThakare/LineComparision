@@ -38,10 +38,14 @@ namespace CalculateLength
                 Console.WriteLine("Line 1 and Line 2 are equal");
 
             }
-            else
+            if (firstlinedistance > secondlinedistance)
             {
-                Console.WriteLine("Line 1 and Line 2 are not equal");
+                Console.WriteLine("Line 1 is greater than Line 2 ");
 
+            }
+            if (firstlinedistance < secondlinedistance)
+            {
+                Console.WriteLine("Line 1 is less than Line 2");
             }
             
         }
